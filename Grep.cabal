@@ -60,7 +60,7 @@ library
 
     -- Modules exported by the library.
     exposed-modules:  MyLib
-                        ,Grep.Core
+                    , Grep.Core
 
     -- Modules included in this library but not exported.
     -- other-modules:
@@ -70,6 +70,8 @@ library
 
     -- Other library packages from which modules are imported.
     build-depends:    base ^>=4.17.2.1
+                    , text
+                    , directory
 
     -- Directories containing source files.
     hs-source-dirs:   src
